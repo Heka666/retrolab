@@ -3325,7 +3325,7 @@
   integrity sha512-6RglhutqrGFMO1MNUXp95RBuYIuc8wTnMAV5MUhLmjTOy78ncwOw7RgeQ/HeymkKXRhZd0s2DNrM1rL7unk3MQ==
 
 "@retrolab/application-extension@file:packages/application-extension":
-  version "0.3.16"
+  version "0.4.0-alpha.0"
   dependencies:
     "@jupyterlab/application" "^4.0.0-alpha.4"
     "@jupyterlab/apputils" "^4.0.0-alpha.4"
@@ -3342,11 +3342,11 @@
     "@lumino/coreutils" "^1.11.1"
     "@lumino/disposable" "^1.10.1"
     "@lumino/widgets" "^1.30.1"
-    "@retrolab/application" "^0.3.15"
-    "@retrolab/ui-components" "^0.3.15"
+    "@retrolab/application" "^0.4.0-alpha.0"
+    "@retrolab/ui-components" "^0.4.0-alpha.0"
 
 "@retrolab/application@file:packages/application":
-  version "0.3.16"
+  version "0.4.0-alpha.0"
   dependencies:
     "@jupyterlab/application" "^4.0.0-alpha.4"
     "@jupyterlab/coreutils" "^6.0.0-alpha.4"
@@ -3361,7 +3361,7 @@
     "@lumino/widgets" "^1.30.1"
 
 "@retrolab/console-extension@file:packages/console-extension":
-  version "0.3.16"
+  version "0.4.0-alpha.0"
   dependencies:
     "@jupyterlab/application" "^4.0.0-alpha.4"
     "@jupyterlab/console" "^4.0.0-alpha.4"
@@ -3369,7 +3369,7 @@
     "@lumino/algorithm" "^1.9.1"
 
 "@retrolab/docmanager-extension@file:packages/docmanager-extension":
-  version "0.3.16"
+  version "0.4.0-alpha.0"
   dependencies:
     "@jupyterlab/application" "^4.0.0-alpha.4"
     "@jupyterlab/coreutils" "^6.0.0-alpha.4"
@@ -3379,24 +3379,24 @@
     "@lumino/algorithm" "^1.9.1"
 
 "@retrolab/documentsearch-extension@file:packages/documentsearch-extension":
-  version "0.3.16"
+  version "0.4.0-alpha.0"
   dependencies:
     "@jupyterlab/application" "^4.0.0-alpha.4"
     "@jupyterlab/documentsearch" "^4.0.0-alpha.4"
     "@lumino/widgets" "^1.30.1"
-    "@retrolab/application" "^0.3.15"
+    "@retrolab/application" "^0.4.0-alpha.0"
 
 "@retrolab/help-extension@file:packages/help-extension":
-  version "0.3.16"
+  version "0.4.0-alpha.0"
   dependencies:
     "@jupyterlab/application" "^4.0.0-alpha.4"
     "@jupyterlab/apputils" "^4.0.0-alpha.4"
     "@jupyterlab/mainmenu" "^4.0.0-alpha.4"
     "@jupyterlab/translation" "^4.0.0-alpha.4"
-    "@retrolab/ui-components" "^0.3.15"
+    "@retrolab/ui-components" "^0.4.0-alpha.0"
 
 "@retrolab/lab-extension@file:packages/lab-extension":
-  version "0.3.16"
+  version "0.4.0-alpha.0"
   dependencies:
     "@jupyterlab/application" "^4.0.0-alpha.4"
     "@jupyterlab/apputils" "^4.0.0-alpha.4"
@@ -3407,10 +3407,10 @@
     "@jupyterlab/translation" "^4.0.0-alpha.4"
     "@lumino/commands" "^1.19.1"
     "@lumino/disposable" "^1.10.1"
-    "@retrolab/application" "^0.3.15"
+    "@retrolab/application" "^0.4.0-alpha.0"
 
 "@retrolab/notebook-extension@file:packages/notebook-extension":
-  version "0.3.16"
+  version "0.4.0-alpha.0"
   dependencies:
     "@jupyterlab/application" "^4.0.0-alpha.4"
     "@jupyterlab/apputils" "^4.0.0-alpha.4"
@@ -3421,10 +3421,10 @@
     "@jupyterlab/translation" "^4.0.0-alpha.4"
     "@lumino/polling" "^1.9.1"
     "@lumino/widgets" "^1.30.1"
-    "@retrolab/application" "^0.3.15"
+    "@retrolab/application" "^0.4.0-alpha.0"
 
 "@retrolab/terminal-extension@file:packages/terminal-extension":
-  version "0.3.16"
+  version "0.4.0-alpha.0"
   dependencies:
     "@jupyterlab/application" "^4.0.0-alpha.4"
     "@jupyterlab/coreutils" "^6.0.0-alpha.4"
@@ -3432,7 +3432,7 @@
     "@lumino/algorithm" "^1.9.1"
 
 "@retrolab/tree-extension@file:packages/tree-extension":
-  version "0.3.16"
+  version "0.4.0-alpha.0"
   dependencies:
     "@jupyterlab/application" "^4.0.0-alpha.4"
     "@jupyterlab/apputils" "^4.0.0-alpha.4"
@@ -3448,10 +3448,10 @@
     "@lumino/algorithm" "^1.9.1"
     "@lumino/commands" "^1.19.1"
     "@lumino/widgets" "^1.30.1"
-    "@retrolab/application" "^0.3.15"
+    "@retrolab/application" "^0.4.0-alpha.0"
 
 "@retrolab/ui-components@file:packages/ui-components":
-  version "0.3.16"
+  version "0.4.0-alpha.0"
   dependencies:
     "@jupyterlab/ui-components" "^4.0.0-alpha.19"
     react "^17.0.1"
@@ -11354,9 +11354,9 @@ qs@^6.9.4:
     side-channel "^1.0.4"
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^4.1.0:
   version "4.3.4"
